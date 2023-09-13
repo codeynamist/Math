@@ -14,7 +14,7 @@ def euler_method(func, x0, y0, h, x_target):
 
 def user_input():
     def func(x, y):
-        # The function you want to solver
+        # The function you want to solve
         return x**2 + y**2  # Replace with your own function
     
     x0 = float(input("Enter the initial x-value (x0): "))
